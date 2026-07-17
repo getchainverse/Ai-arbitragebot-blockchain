@@ -1,0 +1,49 @@
+{
+  "network": "Sepolia Testnet",
+  "chainId": 11155111,
+  "contracts": {
+    "aavePool": "0x6Ae43d3271ff6888e7Fc43Fd7321a503ff738951",
+    "uniswapV3Router": "0xE592427A0AEce92De3Edee1F18E0157C05861564",
+    "uniswapV2Router": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+    "weth": "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9",
+    "usdc": "0x1c7D4B196Cb0C7B01d743Fbc6116a92BF2C27058",
+    "dai": "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357",
+    "flashLoanArb": "0x0000000000000000000000000000000000000000"
+  },
+  "tokens": {
+    "WETH": {
+      "address": "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9",
+      "decimals": 18,
+      "symbol": "WETH"
+    },
+    "USDC": {
+      "address": "0x1c7D4B196Cb0C7B01d743Fbc6116a92BF2C27058",
+      "decimals": 6,
+      "symbol": "USDC"
+    },
+    "DAI": {
+      "address": "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357",
+      "decimals": 18,
+      "symbol": "DAI"
+    }
+  },
+  "pools": {
+    "USDC_WETH": {
+      "token0": "0x1c7D4B196Cb0C7B01d743Fbc6116a92BF2C27058",
+      "token1": "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9",
+      "fee": 3000,
+      "poolAddress": "0x0000000000000000000000000000000000000000"
+    },
+    "DAI_USDC": {
+      "token0": "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357",
+      "token1": "0x1c7D4B196Cb0C7B01d743Fbc6116a92BF2C27058",
+      "fee": 100,
+      "poolAddress": "0x0000000000000000000000000000000000000000"
+    }
+  },
+  "parameters": {
+    "flashLoanFeePercent": 0.05,
+    "slippagePercent": 0.5,
+    "minProfitUSD": 10
+  }
+}

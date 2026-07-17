@@ -1,0 +1,61 @@
+{
+  "network": "Ethereum Mainnet",
+  "chainId": 1,
+  "contracts": {
+    "aavePool": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2",
+    "uniswapV3Router": "0xE592427A0AEce92De3Edee1F18E0157C05861564",
+    "uniswapV2Router": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+    "weth": "0xC02aaA39b223FE8D0A0e8e4F27ead9083C756Cc2",
+    "usdc": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "usdt": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "dai": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+    "flashLoanArb": "0x0000000000000000000000000000000000000000"
+  },
+  "tokens": {
+    "WETH": {
+      "address": "0xC02aaA39b223FE8D0A0e8e4F27ead9083C756Cc2",
+      "decimals": 18,
+      "symbol": "WETH"
+    },
+    "USDC": {
+      "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "decimals": 6,
+      "symbol": "USDC"
+    },
+    "USDT": {
+      "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "decimals": 6,
+      "symbol": "USDT"
+    },
+    "DAI": {
+      "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+      "decimals": 18,
+      "symbol": "DAI"
+    }
+  },
+  "pools": {
+    "USDC_WETH": {
+      "token0": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "token1": "0xC02aaA39b223FE8D0A0e8e4F27ead9083C756Cc2",
+      "fee": 3000,
+      "poolAddress": "0x8ad599c3A0ff1De082011EFDDc58f1908761f7a7"
+    },
+    "DAI_USDC": {
+      "token0": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+      "token1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "fee": 100,
+      "poolAddress": "0x5777d3d545f40ff9037cbac3d02d308c38ae405e"
+    },
+    "USDC_USDT": {
+      "token0": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "token1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "fee": 100,
+      "poolAddress": "0x3416cf6c708da44db2624d63ea0aaf7f07f0c4de"
+    }
+  },
+  "parameters": {
+    "flashLoanFeePercent": 0.05,
+    "slippagePercent": 0.3,
+    "minProfitUSD": 100
+  }
+}
